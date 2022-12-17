@@ -59,4 +59,8 @@ dependencies {
     // Firebase UI
     implementation "com.firebaseui:firebase-ui-auth:$firebaseUiVersion"
     implementation "com.firebaseui:firebase-ui-database:$firebaseUiVersion"
+
+    // Image
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+    implementation "de.hdodenhof:circleimageview:$circleViewVersion"
 }
