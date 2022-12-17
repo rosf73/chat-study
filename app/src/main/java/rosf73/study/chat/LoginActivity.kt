@@ -32,6 +32,7 @@ class LoginActivity : AppCompatActivity() {
         if (Firebase.auth.currentUser == null) {
             val loginIntent = AuthUI.getInstance()
                 .createSignInIntentBuilder()
+                .setTheme(R.style.AppThemeFirebaseAuth)
                 .setLogo(R.drawable.horseballoon)
                 .setAvailableProviders(listOf(
                     AuthUI.IdpConfig.EmailBuilder().build(),
