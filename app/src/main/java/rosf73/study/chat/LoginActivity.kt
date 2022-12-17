@@ -55,12 +55,13 @@ class LoginActivity : AppCompatActivity() {
                 "There was an error signing in",
                 Toast.LENGTH_LONG).show()
 
-            val response = result.idpResponse
-            if (response == null) {
-                println("Sign in canceled")
-            } else {
-                println("Sign in error :: ${response.error}")
-            }
+            // check response
+//            val response = result.idpResponse
+//            if (response == null) {
+//                println("Sign in canceled")
+//            } else {
+//                println("Sign in error :: ${response.error}")
+//            }
         }
     }
 
