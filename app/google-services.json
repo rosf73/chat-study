@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "1234567890158",
-    "firebase_url": "https://demo-chatstudy-android.firebaseio.com",
-    "project_id": "demo-chatstudy-android",
-    "storage_bucket": "demo-chatstudy-android.appspot.com"
+    "project_number": "424884706071",
+    "project_id": "horseballoon",
+    "storage_bucket": "horseballoon.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1234567890158:android:399077dc333751e6a5f937",
+        "mobilesdk_app_id": "1:424884706071:android:b2e1b407be1b4e8d543552",
         "android_client_info": {
           "package_name": "rosf73.study.chat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1234567890158-gv99p92abcdef88ucgfobd02abcdef7m.apps.googleusercontent.com",
+          "client_id": "424884706071-2r897hpi5hvqkaf11cckvjhecol9h73l.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCP8E-zMRzDPCOLd2-4BoK36RORLESzSis"
+          "current_key": "AIzaSyAONrRuYB5urDXJcKXzRm0u0-QMRBJmCso"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1234567890158-gv99p92abcdef88ucgfobd02abcdef7m.apps.googleusercontent.com",
+              "client_id": "424884706071-2r897hpi5hvqkaf11cckvjhecol9h73l.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
