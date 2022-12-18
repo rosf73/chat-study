@@ -74,6 +74,7 @@ class MainActivity : AppCompatActivity() {
         binding.pbMain.visibility = ProgressBar.INVISIBLE
         binding.rvMessages.layoutManager = manager
         binding.rvMessages.adapter = adapter
+        binding.btnSend.isEnabled = false
 
         adapter.registerAdapterDataObserver(
             ScrollToBottomObserver(binding.rvMessages, adapter, manager)
