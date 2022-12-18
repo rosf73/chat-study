@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
 
         db = Firebase.database
         initChat()
+        setListener()
     }
 
     override fun onStart() {
@@ -90,6 +91,21 @@ class MainActivity : AppCompatActivity() {
             user.displayName
         } else {
             ANONYMOUS
+        }
+    }
+
+    private fun setListener() {
+        binding.etMessage.addTextChangedListener(ButtonObserver(binding.btnSend))
+
+        binding.btnSend.setOnClickListener {
+            val msg = Message(
+                binding.etMessage.text.toString(),
+                getUserName(),
+                getPhotoUrl(),
+                null
+            )
+            db.reference.child(MESSAGES_CHILD).push().setValue(msg) // send message (no image)
+            binding.etMessage.setText("")
         }
     }
 
