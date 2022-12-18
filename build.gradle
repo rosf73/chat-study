@@ -22,4 +22,8 @@ ext {
     // Firebase
     firebaseVersion = "31.1.1"
     firebaseUiVersion = "8.0.2"
+
+    // Image
+    glideVersion = "4.14.2"
+    circleViewVersion = "3.1.0"
 }

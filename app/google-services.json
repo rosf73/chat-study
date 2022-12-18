@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "424884706071",
+    "firebase_url": "https://horseballoon-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "horseballoon",
     "storage_bucket": "horseballoon.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "424884706071-jc0aeajdfbglkt7donrftd2sm3fsuqi1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rosf73.study.chat",
+            "certificate_hash": "b3b6578083a024ba55abce42db68b3c359419b10"
+          }
+        },
         {
           "client_id": "424884706071-2r897hpi5hvqkaf11cckvjhecol9h73l.apps.googleusercontent.com",
           "client_type": 3
